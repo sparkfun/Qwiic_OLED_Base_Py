@@ -23,7 +23,7 @@ Table of Contents
 .. toctree:: 
    :caption: Examples
 
-   ex1_bitmap_bender
+   ex1_bitmap
    ex2_qwiic_oled_display
    ex3_qwiic_micro_oled_demo
    ex4_large_oled_demo
