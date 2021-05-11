@@ -93,7 +93,7 @@ pip install sparkfun_oled_base-<version>.tar.gz
   
 Example Use
 ------------
-This example is intended to be used with the [Micro OLED Breakout](https://www.sparkfun.com/products/14532) board. (See the [examples directory](/examples) for more detailed use cases.)
+This example is intended to be used with the [Micro OLED Breakout](https://www.sparkfun.com/products/14532) board. (See the [examples directory](https://github.com/sparkfun/Qwiic_OLED_Base_Py/tree/main/examples) for more detailed use cases.)
 
 ```python
 import qwiic_oled_base
