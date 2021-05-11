@@ -20,11 +20,7 @@ Qwiic_OLED_Base_Py
 	
 </p>
 
-<span style="float:right">
-<img src="https://cdn.sparkfun.com//assets/parts/1/2/6/2/1/14532-SparkFun_Micro_OLED_Breakout__Qwiic_-01.jpg" width=225 alt="SparkFun Qwiic Micro OLED Breakout">
-<br>
-<img src="https://cdn.sparkfun.com//assets/parts/1/6/1/3/5/17153-SparkFun_Qwiic_OLED_Display__0.91_in__128x32_-01.jpg" width=225 alt="SparkFun Qwiic Micro OLED Breakout">
-</span>
+<img src="https://cdn.sparkfun.com//assets/parts/1/2/6/2/1/14532-SparkFun_Micro_OLED_Breakout__Qwiic_-01.jpg" align="right" width=200 alt="SparkFun Qwiic Micro OLED Breakout">
 
 The base (superclass/parent) Python package for the [Qwiic_Micro_OLED_Py](https://github.com/sparkfun/Qwiic_Micro_OLED_Py) and [Qwiic_OLED_Display_Py](https://github.com/sparkfun/Qwiic_OLED__Display_Py) derived (subclass/child) Python packages, which are intended for the qwiic [Micro OLED](https://www.sparkfun.com/products/14532) and [OLED Display](https://www.sparkfun.com/products/17153) boards.
 
@@ -33,6 +29,9 @@ This package is a port of the [SparkFun Micro OLED Breakout Arduino Library](htt
 This package can be used in conjunction with the overall [SparkFun qwiic Python Package](https://github.com/sparkfun/Qwiic_Py)
 
 New to qwiic? Take a look at the entire [SparkFun qwiic ecosystem](https://www.sparkfun.com/qwiic).
+
+<img src="https://cdn.sparkfun.com//assets/parts/1/6/1/3/5/17153-SparkFun_Qwiic_OLED_Display__0.91_in__128x32_-01.jpg" align="right" width=200 alt="SparkFun Qwiic Micro OLED Breakout">
+
 
 ## Contents
 
