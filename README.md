@@ -32,6 +32,8 @@ New to qwiic? Take a look at the entire [SparkFun qwiic ecosystem](https://www.s
 
 <img src="https://cdn.sparkfun.com//assets/parts/1/6/1/3/5/17153-SparkFun_Qwiic_OLED_Display__0.91_in__128x32_-01.jpg" align="right" width=200 alt="SparkFun Qwiic Micro OLED Breakout">
 
+<br>
+<br>
 
 ## Contents
 
