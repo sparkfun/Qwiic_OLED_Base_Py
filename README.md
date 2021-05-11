@@ -102,7 +102,7 @@ import sys
 
 def runExample():
 
-    #  These lines of code are all you need to initialize the OLED and print the splash screen.
+    #  These lines of code are all you need to initialize the OLED display and print text on the screen.
 
     print("\nSparkFun Micro OLED Hello Example\n")
     myOLED = qwiic_oled_base.QwiicOledBase()
