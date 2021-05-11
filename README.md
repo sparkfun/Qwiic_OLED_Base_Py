@@ -31,7 +31,7 @@ This package can be used in conjunction with the overall [SparkFun qwiic Python 
 New to qwiic? Take a look at the entire [SparkFun qwiic ecosystem](https://www.sparkfun.com/qwiic).
 
 <br>
-<img src="https://cdn.sparkfun.com//assets/parts/1/6/1/3/5/17153-SparkFun_Qwiic_OLED_Display__0.91_in__128x32_-01.jpg" align="right" width=200 alt="SparkFun Qwiic Micro OLED Breakout">
+<img src="https://cdn.sparkfun.com//assets/parts/1/6/1/3/5/17153-SparkFun_Qwiic_OLED_Display__0.91_in__128x32_-01.jpg" align="right" width=200 alt="SparkFun Qwiic OLED Display">
 
 ## Contents
 
