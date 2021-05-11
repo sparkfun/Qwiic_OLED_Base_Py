@@ -102,11 +102,9 @@ import sys
 
 def runExample():
 
-    #  These three lines of code are all you need to initialize the
-    #  OLED and print the splash screen.
+    #  These lines of code are all you need to initialize the OLED and print the splash screen.
   
-    #  Before you can start using the OLED, call begin() to init
-    #  all of the pins and configure the OLED.
+    #  Before you can start using the OLED, call begin() to init all of the pins and configure the OLED.
 
 
     print("\nSparkFun Micro OLED Hello Example\n")
@@ -123,8 +121,7 @@ def runExample():
 
     myOLED.print("Hello World")  #  Add "Hello World" to buffer
 
-    #  To actually draw anything on the display, you must call the
-    #  display() function. 
+    #  To actually draw anything on the display, you must call the display() function. 
     myOLED.display()
 
 runExample()
