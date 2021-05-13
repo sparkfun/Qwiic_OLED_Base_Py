@@ -61,8 +61,8 @@ import math
 
 import qwiic_i2c
 
-from . import oled_fonts as disp_fonts
-from . import oled_logos as disp_logo
+from . import oled_fonts
+from . import oled_logos
 
 # Define the device name and I2C addresses. These are set in the class defintion
 # as class variables, making them avilable without having to create a class instance.
@@ -180,7 +180,7 @@ class QwiicOledBase(object):
         self._screenbuffer = [0x00]*int(self.LCDWIDTH*self.LCDHEIGHT/8) #Screen Area in bytes (Total Pixels/8)
         
         # Display SparkFun Logo
-        disp_logo.add_logo(self._screenbuffer)
+        oled_logos.add_logo(self._screenbuffer)
         
         # Display ans Clear Page
         # self.display()
@@ -201,7 +201,7 @@ class QwiicOledBase(object):
         # self.fontData = None
         self._font = None
 
-        self.nFonts = disp_fonts.count()
+        self.nFonts = oled_fonts.count()
 
 
     #--------------------------------------------------------------------------
@@ -859,7 +859,7 @@ class QwiicOledBase(object):
             return False
 
         self.fontType = font_type
-        self._font = disp_fonts.get_font(font_type)
+        self._font = oled_fonts.get_font(font_type)
         if self._font is None:
             return False
 
