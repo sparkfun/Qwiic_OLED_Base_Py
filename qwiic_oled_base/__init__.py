@@ -33,7 +33,7 @@
 # SOFTWARE.
 #==================================================================================
 #-----------------------------------------------------------------------------
-# this package encapsulates the resources used for the Micro OLED board
+# this package encapsulates the resources used for the SSD1306 OLED display driver
 #
 #-----------------------------------------------------------------------------
 

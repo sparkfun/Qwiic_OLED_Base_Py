@@ -2,7 +2,7 @@
 #-----------------------------------------------------------------------------
 # ex3_qwiic_micro_oled_demo.py
 #
-# Simple Example for the Qwiic MicroOLED Device
+# Simple Example for the Qwiic Micro OLED Device
 #------------------------------------------------------------------------
 #
 # Written by  SparkFun Electronics, May 2021

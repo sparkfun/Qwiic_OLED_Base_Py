@@ -2,7 +2,7 @@
 #-----------------------------------------------------------------------------
 # ex4_large_oled_demo.py
 #
-# Simple Example for the Qwiic MicroOLED Device
+# Simple Example for a 128 x 64 pixel OLED Display
 #------------------------------------------------------------------------
 #
 # Written by  SparkFun Electronics, May 2021
@@ -334,11 +334,11 @@ def runExample():
     #  all of the pins and configure the OLED.
 
 
-    print("\nSparkFun Micro OLED Everything Example\n")
+    print("\n128 x 64 OLED Display - Everything Example\n")
     myOLED = qwiic_oled_base.QwiicOledBase(None, 128, 64)
 
     if not myOLED.connected:
-        print("The Qwiic Micro OLED device isn't connected to the system. Please check your connection", \
+        print("An OLED device isn't connected to the system. Please check your connection", \
             file=sys.stderr)
         return
 

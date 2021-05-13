@@ -2,7 +2,7 @@
 #-----------------------------------------------------------------------------
 # ex2_qwiic_oled_display.py
 #
-# Simple Example for the Qwiic MicroOLED Device
+# Simple Example for the Qwiic OLED Display
 #------------------------------------------------------------------------
 #
 # Written by  SparkFun Electronics, May 2021
@@ -58,7 +58,7 @@ def runExample():
     myOLED = qwiic_oled_base.QwiicOledBase(0x3C, 128, 32)
 
     if not myOLED.connected:
-        print("The Qwiic Micro OLED device isn't connected to the system. Please check your connection", \
+        print("The Qwiic OLED Display isn't connected to the system. Please check your connection", \
             file=sys.stderr)
         return
 

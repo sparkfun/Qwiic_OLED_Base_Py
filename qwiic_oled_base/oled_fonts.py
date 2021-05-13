@@ -177,7 +177,7 @@ def _initFontSystem():
 	try: 
 		tmpFiles = os.listdir(fDir)
 	except:
-		print("Micro OLED fonts do not exists - check your installation")
+		print("OLED fonts do not exists - check your installation")
 		return
 
 
@@ -192,7 +192,7 @@ def _initFontSystem():
 	# get our font names 
 
 	if len(fontFiles) == 0:
-		print("Micro OLED - no fonts found")
+		print("OLED - no fonts found")
 		return
 
 

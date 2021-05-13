@@ -134,7 +134,7 @@ class QwiicOledBase(object):
                         If not provided, the default address is used.
         :param i2c_driver: An existing i2c driver object. If not provided
                         a driver object is created.
-        :return: The Micro OLED device object.
+        :return: The SSD1306 OLED device object.
         :rtype: Object
     """
 
@@ -207,7 +207,7 @@ class QwiicOledBase(object):
     #--------------------------------------------------------------------------
     def is_connected(self):
         """
-            Determine if a Micro OLED device is conntected to the system..
+            Determine if a SSD1306 OLED device is conntected to the system..
 
             :return: True if the device is connected, otherwise False.
             :rtype: bool
@@ -220,7 +220,7 @@ class QwiicOledBase(object):
     #--------------------------------------------------------------------------
     def begin(self):
         """
-            Initialize the operation of the Micro OLED module
+            Initialize the operation of the SSD1306 display driver for the OLED module
 
             :return: Returns true of the initializtion was successful, otherwise False.
             :rtype: bool
@@ -455,7 +455,7 @@ class QwiicOledBase(object):
 
 
     #--------------------------------------------------------------------------
-    # MicroOLED's cursor position to x,y.
+    # OLED's cursor position to x,y.
 
     def set_cursor(self, x, y):
         """
@@ -821,11 +821,11 @@ class QwiicOledBase(object):
         return self._font.total_char
 
 
-    # Return the total number of fonts loaded into the MicroOLED's flash memory.
+    # Return the total number of fonts loaded into the OLED's flash memory.
 
     def get_total_fonts(self):
         """
-            Return the total number of fonts loaded into the MicroOLED's flash memory.
+            Return the total number of fonts loaded into the OLED's flash memory.
 
             :return: Total number of fonts available
             :rvalue: integer
