@@ -262,7 +262,10 @@ class QwiicOledBase(object):
             self._i2c.writeByte(self.address, I2C_COMMAND, 0x12)                # square and large (64x48 or 128x64 OLED modules)
 
         self._i2c.writeByte(self.address, I2C_COMMAND, SETCONTRAST)         #  0x81
-        self._i2c.writeByte(self.address, I2C_COMMAND, 0x8F)
+        if len(self._screenbuffer) == 1024:
+            self._i2c.writeByte(self.address, I2C_COMMAND, 0xCF)                # large (128x64 OLED modules)
+        else:
+            self._i2c.writeByte(self.address, I2C_COMMAND, 0x8F)                # square and rect (64x48 or 128x32 OLED modules)
 
         self._i2c.writeByte(self.address, I2C_COMMAND, SETPRECHARGE)            #  0xd9
         self._i2c.writeByte(self.address, I2C_COMMAND, 0x22)
