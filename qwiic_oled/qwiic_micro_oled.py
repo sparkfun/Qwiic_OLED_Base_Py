@@ -55,7 +55,7 @@ New to qwiic? Take a look at the entire [SparkFun qwiic ecosystem](https://www.s
 import math
 import qwiic_i2c
 
-from qwiic_oled import QwiicOledBase
+from qwiic_oled import QwiicOledBaseSSD1306
 
 # Define the device name and I2C addresses. These are set in the class defintion
 # as class variables, making them avilable without having to create a class instance.
@@ -72,7 +72,7 @@ _LCDWIDTH            = 64
 _LCDHEIGHT           = 48
 
 
-class QwiicMicroOled(QwiicOledBase):
+class QwiicMicroOled(QwiicOledBaseSSD1306):
     """
     QwiicMicroOled
 

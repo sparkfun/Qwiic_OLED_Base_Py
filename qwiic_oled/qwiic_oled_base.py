@@ -124,9 +124,9 @@ VERTICALRIGHTHORIZONTALSCROLL   = 0x29
 VERTICALLEFTHORIZONTALSCROLL    = 0x2A
 
 
-class QwiicOledBase(object):
+class QwiicOledBaseSSD1306(object):
     """!
-        QwiicOledBase
+        QwiicOledBaseSSD1306
 
         @param address: The I2C address to use for the device.
                         If not provided, the default address is used.
