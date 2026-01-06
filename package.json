@@ -10,7 +10,7 @@
       ["qwiic_oled/oled_logos.py", "github:sparkfun/Qwiic_OLED_Base_Py/qwiic_oled/oled_logos.py"],
       ["qwiic_oled/qwiic_large_oled.py", "github:sparkfun/Qwiic_OLED_Base_Py/qwiic_oled/qwiic_large_oled.py"],
       ["qwiic_oled/qwiic_micro_oled.py", "github:sparkfun/Qwiic_OLED_Base_Py/qwiic_oled/qwiic_micro_oled.py"],
-      ["qwiic_oled/qwiic_oled_base.py", "github:sparkfun/Qwiic_OLED_Base_Py/qwiic_oled/qwiic_oled_base.py"],
+      ["qwiic_oled/qwiic_oled_base_ssd1306.py", "github:sparkfun/Qwiic_OLED_Base_Py/qwiic_oled/qwiic_oled_base_ssd1306.py"],
       ["qwiic_oled/qwiic_oled_display.py", "github:sparkfun/Qwiic_OLED_Base_Py/qwiic_oled/qwiic_oled_display.py"]
     ],
     "deps": [

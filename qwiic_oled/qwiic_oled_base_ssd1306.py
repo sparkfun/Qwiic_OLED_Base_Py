@@ -1,5 +1,5 @@
 #-----------------------------------------------------------------------------
-# qwiic_oled_base.py
+# qwiic_oled_base_ssd1306.py
 #
 #------------------------------------------------------------------------
 #
@@ -40,7 +40,7 @@
 # pylint: disable=too-many-public-methods
 
 """!
-qwiic_oled_base
+qwiic_oled_base_ssd1306
 =================
 The base Python module for the SSD1306 display driver on the following OLED displays:
 - [Qwiic Micro OLED]](https://www.sparkfun.com/products/14532)
